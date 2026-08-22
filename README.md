@@ -41,7 +41,7 @@ Permintaan penghapusan akan diproses setelah identitas pemilik akun berhasil div
 
 Untuk mengajukan permintaan penghapusan akun, silakan hubungi developer SehatPol melalui alamat email developer yang tercantum pada halaman aplikasi SehatPol di Google Play.
 
-Subjek email yang disarankan:
+Subjek email yang disarankan: ramadanimuhammadakbar@gmail.com
 
 **Permintaan Penghapusan Akun SehatPol**
 
