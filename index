@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Permintaan Penghapusan Akun SehatPol</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@600;700;800&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --blue-900: #0d47a1;
+    --blue-700: #1565c0;
+    --blue-600: #1976d2;
+    --blue-500: #2196f3;
+    --blue-50: #e9f3fd;
+    --ink: #17212b;
+    --muted: #52667a;
+    --border: #d9e6f5;
+    --bg: #f6f9fd;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: var(--ink);
+    background: var(--bg);
+    line-height: 1.65;
+  }
+
+  header {
+    background: linear-gradient(135deg, var(--blue-900), var(--blue-600));
+    color: #fff;
+    padding: 48px 24px 40px;
+  }
+
+  header .inner {
+    max-width: 760px;
+    margin: 0 auto;
+  }
+
+  .eyebrow {
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: var(--blue-50);
+    opacity: 0.9;
+    margin: 0 0 10px;
+  }
+
+  h1 {
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 1.25;
+    margin: 0;
+  }
+
+  main {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 36px 24px 64px;
+  }
+
+  section {
+    background: #fff;
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 26px 28px;
+    margin-bottom: 20px;
+  }
+
+  h2 {
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: var(--blue-900);
+    margin: 0 0 12px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--blue-50);
+  }
+
+  p {
+    margin: 0 0 12px;
+    color: var(--ink);
+  }
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+
+  ul {
+    margin: 12px 0 0;
+    padding-left: 0;
+    list-style: none;
+  }
+
+  ul:last-child {
+    margin-bottom: 0;
+  }
+
+  li {
+    position: relative;
+    padding: 8px 0 8px 26px;
+    border-top: 1px solid var(--border);
+  }
+
+  li:first-child {
+    border-top: none;
+  }
+
+  li::before {
+    content: "";
+    position: absolute;
+    left: 4px;
+    top: 17px;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: var(--blue-500);
+  }
+
+  .subject-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: var(--blue-50);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 14px 18px;
+    margin: 14px 0;
+  }
+
+  .subject-label {
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--blue-700);
+    white-space: nowrap;
+  }
+
+  .subject-text {
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 700;
+    color: var(--blue-900);
+  }
+
+  .note {
+    font-size: 14px;
+    color: var(--muted);
+  }
+
+  footer {
+    text-align: center;
+    padding: 0 24px 40px;
+    color: var(--muted);
+    font-size: 13px;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="inner">
+    <p class="eyebrow">SehatPol</p>
+    <h1>Permintaan Penghapusan Akun SehatPol</h1>
+  </div>
+</header>
+
+<main>
+
+  <section>
+    <h2>Tentang Penghapusan Akun</h2>
+    <p>Halaman ini digunakan oleh pengguna aplikasi SehatPol untuk mengajukan permintaan penghapusan akun dan data terkait.</p>
+  </section>
+
+  <section>
+    <h2>Cara Meminta Penghapusan Akun</h2>
+    <p>Pengguna dapat mengajukan permintaan penghapusan akun dengan mengirimkan email kepada developer SehatPol.</p>
+    <p>Dalam email, pengguna harus mencantumkan:</p>
+    <ul>
+      <li>Nama pengguna yang terdaftar pada SehatPol.</li>
+      <li>Alamat email yang digunakan untuk akun SehatPol.</li>
+      <li>Permintaan untuk menghapus akun dan data terkait.</li>
+    </ul>
+    <p style="margin-top:12px">Permintaan penghapusan akun akan diverifikasi untuk memastikan bahwa permintaan berasal dari pemilik akun.</p>
+  </section>
+
+  <section>
+    <h2>Data yang Dihapus</h2>
+    <p>Setelah permintaan penghapusan akun disetujui, data yang terkait dengan akun pengguna akan dihapus, termasuk:</p>
+    <ul>
+      <li>Informasi akun pengguna.</li>
+      <li>Nama pengguna.</li>
+      <li>Data profil seperti jenis kelamin dan tanggal lahir.</li>
+      <li>Data penyakit yang tersimpan pada akun.</li>
+      <li>Data jadwal dan pengelolaan obat.</li>
+      <li>Data aktivitas dan riwayat penggunaan yang terkait dengan akun.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Data yang Dapat Dipertahankan</h2>
+    <p>Data tertentu dapat dipertahankan apabila diperlukan untuk memenuhi kewajiban hukum, mencegah penyalahgunaan, menyelesaikan sengketa, atau menjaga keamanan sistem.</p>
+    <p>Data tersebut hanya dipertahankan selama diperlukan untuk tujuan tersebut dan akan dihapus setelah tidak lagi diperlukan.</p>
+  </section>
+
+  <section>
+    <h2>Periode Penghapusan</h2>
+    <p>Permintaan penghapusan akan diproses setelah identitas pemilik akun berhasil diverifikasi. Data yang memenuhi syarat untuk dihapus akan dihapus secara permanen setelah proses penghapusan selesai.</p>
+  </section>
+
+  <section>
+    <h2>Hubungi Developer</h2>
+    <p>Untuk mengajukan permintaan penghapusan akun, silakan hubungi developer SehatPol melalui alamat email developer yang tercantum pada halaman aplikasi SehatPol di Google Play.</p>
+
+    <p class="note">Subjek email yang disarankan:</p>
+    <div class="subject-box">
+      <span class="subject-label">Subjek</span>
+      <span class="subject-text">Permintaan Penghapusan Akun SehatPol</span>
+    </div>
+
+    <p>Pastikan alamat email yang digunakan untuk mengirim permintaan dapat digunakan untuk memverifikasi kepemilikan akun SehatPol.</p>
+  </section>
+
+</main>
+
+<footer>
+  SehatPol &mdash; Kebijakan Penghapusan Akun
+</footer>
+
+</body>
+</html>
